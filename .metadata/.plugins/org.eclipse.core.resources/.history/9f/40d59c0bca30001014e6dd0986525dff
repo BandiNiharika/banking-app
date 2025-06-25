@@ -1,0 +1,23 @@
+spring.application.name=Bankapp
+server.port=8081
+
+# Spring MVC configuration for JSPs
+spring.mvc.view.prefix=/views/
+spring.mvc.view.suffix=.jsp
+
+# H2 Database configuration (in-memory database)
+spring.datasource.url=jdbc:h2:mem:bankdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+
+# JPA Configuration
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=update
+
+# Show SQL in console
+spring.jpa.show-sql=true
+
+# Enable H2 Console for testing and debugging
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console

@@ -1,0 +1,7 @@
+package bankapp.Bankapp;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface accountrepository extends JpaRepository<SDFCBank, String> {
+
+}

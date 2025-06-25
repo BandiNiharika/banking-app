@@ -1,0 +1,22 @@
+package bankapp.Bankapp;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+@RestController
+@RequestMapping("/api/accounts") // Optional, adds a common prefix
+
+public class accountcontroller {
+	@Autowired
+    private accountrepository nbankRepository;
+
+    @PostMapping("/create")
+    public ResponseEntity<String> createAccount(@RequestBody account account) {
+        nbankRepository.save(account);
+        return ResponseEntity.ok("Account created successfully!");
+    }
+
+}

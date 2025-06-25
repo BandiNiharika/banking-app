@@ -1,0 +1,16 @@
+package bankapp.Bankapp;
+
+import org.springframework.boot.SpringApplication;
+
+
+
+public class Bankapplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SpringApplication.run(Bankapplication.class, args);
+	}
+
+	}
+
+}

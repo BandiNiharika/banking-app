@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="Bankappcom.example.NBankApplication.NBankService"/>
+    <fullyQualifiedTypeName name="Bankappcom.example.NBankApplication.NBankRepository"/>
+    <fullyQualifiedTypeName name="bankcom.example.SDFC.BANK.SdfcBankApplication"/>
+    <fullyQualifiedTypeName name="bankcom.example.SDFC.BANK.sdfcbankEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.validation.annotation.Validated"/>
+</qualifiedTypeNameHistroy>
