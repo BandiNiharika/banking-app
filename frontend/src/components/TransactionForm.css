@@ -1,0 +1,51 @@
+/* TransactionForm.css */
+
+.transaction-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.transaction-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.transaction-form input:focus {
+  border-color: #007bff;
+}
+
+.transaction-form button {
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transaction-form button:hover {
+  background-color: #0056b3;
+}

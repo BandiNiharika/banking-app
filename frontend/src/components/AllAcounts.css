@@ -1,0 +1,20 @@
+.all-accounts-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.accounts-table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.accounts-table th,
+.accounts-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.accounts-table th {
+  background-color: #f2f2f2;
+}
